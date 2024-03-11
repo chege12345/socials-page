@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(34, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.social-container{
+    background-color: rgb(66, 65, 65);
+    height: 500px;
+    width: 300px;
+    border-radius: 12px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-picture{
+    height:80px;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+.profile-name{
+    font-family: Roboto, Arial;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(245, 230, 232);
+    padding-left: 5px;
+}
+.profile-location{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(236, 236, 38);
+}
+.name-location{
+    line-height: 0.5
+    
+}
+p{
+    color: rgb(214, 206, 206);
+    font-size: 13px;
+}
+.profile-btns{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    margin: 5px;
+    height: 30px;
+    width: 250px;
+    background-color:rgb(117, 117, 117);
+    color: rgb(202, 200, 200);
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    transition: opacity 0.15s;
+    transition: background-color 0.15s;
+    padding:  2px 2px 2px 2px;
+}
+button:hover{
+    cursor: pointer;
+    background-color:rgb(94, 128, 13);
+    box-shadow: 10px 8px 30px ;
+}
+button:active{
+opacity: 1
+}
